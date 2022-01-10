@@ -23,15 +23,15 @@ function Nav(){
     return(
         <header>
         <h2>
-            <a href="/">
-                <span role="img" aria-label="camera">📸</span> Of Snap!
+            <a data-testid="link" href="/">
+                <span role="img" aria-label="camera"> 📸</span> Oh Snap!
             </a>
         </h2>
         <nav>
             <ul className="mx-2">
                 <li>
-                <a href="#about">
-                    About Me
+                <a data-testid="about" href="#about">
+                    About me
                 </a>
                 </li>
                 <li>
